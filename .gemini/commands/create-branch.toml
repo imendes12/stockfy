@@ -1,0 +1,11 @@
+description = "Cria uma branch para iniciar o desenvolvimento"
+
+prompt = """
+
+Faça checkout do repositório para a branch main.
+
+Verifique se o ambiente local está up-to-date.
+
+Se não estiver up-to-date, faça o pull das alterações do origin.
+
+Se estiver up-to-date, crie uma nova branch a partir da main com o nome {{args}}"""
